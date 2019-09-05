@@ -1,7 +1,12 @@
 # coding: utf-8
-# 作者: Charles
-# 公众号: Charles的皮卡丘
-# 游戏运行主程序
+'''
+Function:
+	游戏运行主程序
+作者:
+	Charles
+微信公众号:
+	Charles的皮卡丘
+'''
 import sys
 import pygame
 import scene
@@ -140,13 +145,13 @@ def main():
 		myfoodsGroup = pygame.sprite.Group()
 		# 自定义事件
 		# 	-生成敌方坦克事件
-		genEnemyEvent = pygame.constants.USEREVENT
+		genEnemyEvent = pygame.constants.USEREVENT + 0
 		pygame.time.set_timer(genEnemyEvent, 100)
 		# 	-敌方坦克静止恢复事件
-		recoverEnemyEvent = pygame.constants.USEREVENT
+		recoverEnemyEvent = pygame.constants.USEREVENT + 1
 		pygame.time.set_timer(recoverEnemyEvent, 8000)
 		# 	-我方坦克无敌恢复事件
-		noprotectMytankEvent = pygame.constants.USEREVENT
+		noprotectMytankEvent = pygame.constants.USEREVENT + 2
 		pygame.time.set_timer(noprotectMytankEvent, 8000)
 		# 关卡地图
 		map_stage = scene.Map(stage)

@@ -1,10 +1,18 @@
-# Introduction:
-https://mp.weixin.qq.com/s/k4YaHbPfQOKi0nCvnLwvVg  
-# Usage:
-python Game6.py
-# Running Screenshot:
-![img](Screenshot.png)
-# Python Version[Tested]:
-Python3.6
-# Packages:
-pygame, random, sys
+# Introduction
+https://mp.weixin.qq.com/s/k4YaHbPfQOKi0nCvnLwvVg
+
+# Environment(Tested)
+- Windows10
+- Python3.5+(have installed necessary dependencies)
+
+# Usage
+- pip install -r requirements.txt
+- python Game6.py
+
+# Packages
+- pygame
+- random
+- sys
+
+# Game Display
+![giphy](effect/running.gif)
